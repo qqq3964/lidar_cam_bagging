@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="data_processing" type="capture_subscriber_econ_node" name="sync_capture_save_gui_node" output="screen">
+        <param name="use_sim_time" value="false"/>
+    </node>
+</launch>

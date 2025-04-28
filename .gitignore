@@ -1,0 +1,5 @@
+bagfiles
+build
+devel
+.vscode
+*.ipynb
