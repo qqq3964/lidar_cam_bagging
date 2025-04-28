@@ -42,7 +42,6 @@ pcl::PointCloud<pcl::PointXYZRGB>::Ptr convertIntensityToRGB(pcl::PointCloud<pcl
         prgb.r = intensity;
         prgb.g = intensity;
         prgb.b = intensity;
-        std::cout << (int)intensity << std::endl;
         cloud_out->points.push_back(prgb);
     }
     cloud_out->width = static_cast<uint32_t>(cloud_out->points.size());
